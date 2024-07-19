@@ -1,0 +1,27 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "",
+    "region"      : "",
+    "configuration" : "Release",
+    "package-type"  : "Image",
+    "function-memory-size" : 512,
+    "function-timeout"     : 330,
+    "image-command"        : "IronPdfAWSLambdaNet80::IronPdfAWSLambdaNet80.Function::GetPdf",
+    "docker-host-build-output-dir" : "./bin/Release/lambda-publish",
+    "function-name"                : "IronPdfAWSLambdaNet80",
+    "function-role"                : "",
+    "function-architecture"        : "x86_64",
+    "function-subnets"             : "",
+    "function-security-groups"     : "",
+    "tracing-mode"                 : "PassThrough",
+    "environment-variables"        : "",
+    "dockerfile"                   : "Dockerfile",
+    "image-tag"                    : "awslambdanet80test1:latest",
+    "function-description"         : ""
+}
